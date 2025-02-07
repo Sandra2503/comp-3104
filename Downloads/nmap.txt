@@ -1,0 +1,17 @@
+Nmap version 7.80 ( https://nmap.org )
+Platform: x86_64-pc-linux-gnu
+Compiled with: liblua-5.3.6 openssl-3.0.2 nmap-libssh2-1.8.2 libz-1.2.11 libpcre-8.45 libpcap-1.10.1 nmap-libdnet-1.12 ipv6
+Compiled without:
+Available nsock engines: epoll poll select
+root@comp3134-winter2025:~# nmap georgebrown.ca
+Starting Nmap 7.80 ( https://nmap.org ) at 2025-01-19 21:05 UTC
+Nmap scan report for georgebrown.ca (198.96.86.176)
+Host is up (0.0022s latency).
+rDNS record for 198.96.86.176: dmzrdr01.georgebrown.ca
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 4.88 seconds
+
